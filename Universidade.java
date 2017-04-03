@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Universidade{
     
     public static void main(String args[]){
-        
+    boolean resp=true;while(resp){    
        System.out.println(" _________________________________"); 
        System.out.println("+\t           \t      \t  +\t   projeto db"); 
        System.out.println("+\t1-consultar\tcriado\t  +\tdocente Fred Jarsen"); 
@@ -17,9 +17,9 @@ public class Universidade{
        System.out.println("+\t                   \t  +        ▼"); 
        System.out.println("+\t\t\t    \t  +");Scanner sc = new Scanner(System.in);
        System.out.println("+\t\t\t    \t  +escolha uma das opções..."); 
-       System.out.println("+_________________________________+");sc.nextInt(); 
+       System.out.println("+_________________________________+");System.out.println(resp=sc.nextInt()>4?true:false);
+   }
 
-        
     }
     
     
