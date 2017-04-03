@@ -54,3 +54,4 @@ root@2e398d216585:/projects/universidade#
 
 
 git config remote.origin.url https://you:password@github.com/you/example.git
+git config --unset credential.helper
