@@ -50,3 +50,7 @@ branch.master.merge=refs/heads/master
 user.name=heydelailah                                                                                         
 user.email=heydelailah@gmail.com                                                                              
 root@2e398d216585:/projects/universidade#    
+
+
+
+git config remote.origin.url https://you:password@github.com/you/example.git
