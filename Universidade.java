@@ -1,6 +1,7 @@
 //developed by alexsyfk..github,ill db implements mysql
 /*up by alexsey 2017 21:40 4/3
- * simple app to show functions with db....
+ * created in 4/3/17,19:00...
+ *   simple app to show functions with db....
  * docents Fred Jarsen
  */
 import java.util.Scanner;
@@ -17,10 +18,17 @@ public class Universidade{
        System.out.println("+\t                   \t  +        ▼"); 
        System.out.println("+\t\t\t    \t  +");Scanner sc = new Scanner(System.in);
        System.out.println("+\t\t\t    \t  +escolha uma das opções..."); 
-       System.out.println("+_________________________________+");resp=sc.nextInt()>4?true:false;
-   }
+       System.out.println("+_________________________________+");int i=sc.nextInt();resp=i>4?true:false;
+  
+  }
+
+
+
+
 
     }
+    
+    
     
     
     
