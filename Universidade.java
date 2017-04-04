@@ -1,5 +1,5 @@
 //developed by alexsyfk..github,ill db implements mysql
-/*up by alexsey 
+/*up by alexsey ...
  * simple app to show functions with db....
  * docents Fred Jarsen
  */
