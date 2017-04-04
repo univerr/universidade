@@ -19,7 +19,7 @@ public class Universidade{
        System.out.println("+\t\t\t    \t  +");Scanner sc = new Scanner(System.in);
        System.out.println("+\t\t\t    \t  +escolha uma das opções..."); 
        System.out.println("+_________________________________+");int i=sc.nextInt();resp=i>4?true:false;
-  
+  System.out.println(i);
   }
 
 
