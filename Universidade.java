@@ -1,5 +1,5 @@
 //developed by alexsyfk..github,ill db implements mysql
-/*date +%A
+/*
  * simple app to show functions with db....
  * docents Fred Jarsen
  */
