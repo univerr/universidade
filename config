@@ -1,0 +1,24 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	logallrefupdates = true
+[branch "master"]
+[user]
+	name = heydelailah
+	email = heydelailah@gmail.com
+[credential]
+	helper = store
+[remote "btk"]
+	url = git@bitbucket.org:koklaink/universidade.git
+	fetch = +refs/heads/*:refs/remotes/btk/*
+[remote "lab"]
+	url = git@gitlab.com:heydelailah/universidade.git
+	fetch = +refs/heads/*:refs/remotes/lab/*
+[branch "master"]
+	remote = lab
+	merge = refs/heads/master
+[remote "all"]
+	url = git@github.com:heydelailah/universidade.git
+	fetch = +refs/heads/*:refs/remotes/all/*
+	url = git@bitbucket.org:koklaink/universidade.git
+	url = git@gitlab.com:heydelailah/universidade.git
