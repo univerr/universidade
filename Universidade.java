@@ -5,8 +5,27 @@
  * docents Fred Jarsen
  */
 import java.util.Scanner;
+import java.sql.*;
 public class Universidade{
+   
+   String url = "jdbc:mysql://localhost:3306/universidade";
+
+    String user =  "root";
+
+    String password = "123456";
     
+    
+    try {
+            Connection con;
+            con = DriverManager.getConnection(url, user, password);
+            System.out.println(“Success”); 
+        } 
+        /*
+        catch (Exception e) {
+            e.printStackTrace(); 
+        }
+   */
+   
     public static void main(String args[]){
     boolean resp=true;while(resp){    
        System.out.println(" _________________________________"); 
@@ -19,6 +38,7 @@ public class Universidade{
        System.out.println("+\t\t\t    \t  +");Scanner sc = new Scanner(System.in);
        System.out.println("+\t\t\t    \t  +escolha uma das opções..."); 
        System.out.println("+_________________________________+");int i=sc.nextInt();resp=i>4?true:false;
+  /*
   switch(){
   case 1:{
       
@@ -37,6 +57,7 @@ public class Universidade{
         break;
     }
   }
+*/
   }
 
 
