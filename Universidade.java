@@ -15,17 +15,23 @@ public class Universidade{
     String password = "123456";
     
     
+    
+    
+
+/*
     try {
             Connection con;
-            con = DriverManager.getConnection(url, user, password);
-            System.out.println(“Success”); 
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/universidade","root","123456");
+            System.out.println("success"); 
+      //  con.close();
         } 
-        /*
+        
         catch (Exception e) {
-            e.printStackTrace(); 
+          System.out.println("error"); 
+          // e.printStackTrace(); 
         }
-   */
-   
+  */
+  
     public static void main(String args[]){
     boolean resp=true;while(resp){    
        System.out.println(" _________________________________"); 
