@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 57eb859f5c9c7546907a96fe16e9341644cab8f9 root <root@box-codeanywhere.com> 1492282455 -0400	clone: from git@github.com:univerr/universidade.git
+57eb859f5c9c7546907a96fe16e9341644cab8f9 d32d653ba80850ab2e7527d503bcf9823df2c902 root <root@box-codeanywhere.com> 1492283065 -0400	commit: ok
+d32d653ba80850ab2e7527d503bcf9823df2c902 9a80e8ecdfa48207d5d166c5aebd69d7c675a9d4 root <root@box-codeanywhere.com> 1492333419 -0400	commit: deleting git folder
+9a80e8ecdfa48207d5d166c5aebd69d7c675a9d4 cb5c418fd9fb945b1e2f721346d7d5392fba3a82 root <root@box-codeanywhere.com> 1492333490 -0400	commit: deleting git folder
+cb5c418fd9fb945b1e2f721346d7d5392fba3a82 5efb8052e06c90ee0b0272c7f902686d628513a6 root <root@box-codeanywhere.com> 1492333506 -0400	commit (amend): adding git folder
+5efb8052e06c90ee0b0272c7f902686d628513a6 9a80e8ecdfa48207d5d166c5aebd69d7c675a9d4 root <root@box-codeanywhere.com> 1492333825 -0400	reset: moving to HEAD~1
+9a80e8ecdfa48207d5d166c5aebd69d7c675a9d4 0d7c7d699b4f6cec0f3a9416c64141e77b9de33a root <root@box-codeanywhere.com> 1492334023 -0400	commit: adding git folder
+0d7c7d699b4f6cec0f3a9416c64141e77b9de33a 9a80e8ecdfa48207d5d166c5aebd69d7c675a9d4 root <root@box-codeanywhere.com> 1492334158 -0400	reset: moving to HEAD~
